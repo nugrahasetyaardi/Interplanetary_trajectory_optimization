@@ -1,3 +1,4 @@
+% Writer: Nugraha Setya Ardi
 function [delta, rp, e_m, e_p, a_m, a_p, delta_vp, vp_m, vp_p] = flybyPow(v_infM, v_infP, muP)
     delta = acos(dot(v_infM,v_infP)/(norm(v_infM)*norm(v_infP)));
     
