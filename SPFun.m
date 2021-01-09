@@ -1,4 +1,7 @@
-function dFdt = SPFun(F,mu)  
+function dFdt = SPFun(F,mu)
+    % Writer: Nugraha Setya Ardi
+    % This function is a function for integrating numerically newton's gravity equation between 2 celestial bodies, assuming m1 >> m2 (so baricenter lies at the center of m1).
+    % You can specify disturbance acceleration in adx, ady, and adz
     x = F(1);
     y = F(2);
     z = F(3);
